@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "dev": "vite dev",
+    "dev": "vite dev --open",
     "build": "vite build",
     "preview": "vite preview",
     "test": "npm run test:integration && npm run test:unit",
@@ -43,7 +43,6 @@
   },
   "type": "module",
   "dependencies": {
-    "highlight.js": "11.8.0",
     "@floating-ui/dom": "1.5.1"
   }
 }
